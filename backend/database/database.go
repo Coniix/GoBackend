@@ -19,7 +19,8 @@ func Init() {
 	if len(user) == 0 {
 		user = "root"
 	}
-	password := os.Getenv("DB_PASSWORD")
+	// password := os.Getenv("DB_PASSWORD")
+	password := "mysql123"
 	address := os.Getenv("DB_ADDRESS")
 	if len(address) == 0 {
 		address = "localhost"
